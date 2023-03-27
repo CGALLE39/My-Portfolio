@@ -3,6 +3,7 @@ import './index.scss';
 import Clogo from '../../assets/images/c-logo.png';
 import {useEffect, useState} from "react";
 import AnimatedLetters from "../AnimatedLetters";
+import Loader from "react-loaders";
 
 const Home = () => {
 
@@ -18,14 +19,16 @@ const Home = () => {
     }, [])
 
     return (
-
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
                     <span className={letterClass}>H</span>
                     <span className={`${letterClass}_12`}>i, </span>
                     <br />
-                    <span className={`${letterClass}_12`}>I'm</span>
+                    <span className={`${letterClass}_13`}>I</span>
+                    <span className={`${letterClass}_14`}>'m</span>
+
                     <img src={Clogo} alt="developer" />
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
@@ -39,6 +42,8 @@ const Home = () => {
             </div>
 
         </div>
+            <Loader type="pacman" />
+        </>
     );
 }
 
