@@ -42,7 +42,7 @@ const Contact = () => {
                                     />
                                 </h1>
                             <p>
-                                    call meeee
+                                    message me!
                             </p>
                             <div className='contact-form'>
                                 <form ref={form} onSubmit={sendEmail}>
