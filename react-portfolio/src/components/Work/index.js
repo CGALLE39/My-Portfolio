@@ -2,6 +2,7 @@ import {useEffect, useState} from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import Loader from "react-loaders";
 import portfolioData from '../../data/portfolio.json';
+import "./index.scss";
 
 const Work = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
