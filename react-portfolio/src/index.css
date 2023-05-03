@@ -28,7 +28,14 @@ body {
 
 .stars{
   background: url('stars.png');
+  z-index: 0;
+}
 
+.twinkling{
+  background: transparent url('pinpng.com-sky-png-image-6704679.png') repeat top center;
+  opacity: 0.5;
+  z-index: 1;
+  animation: move-twinkle-back 200s linear infinite;
 }
 
 @keyframes move-clouds-back {

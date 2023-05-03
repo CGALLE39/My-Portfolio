@@ -2,7 +2,7 @@ import  './index.scss'
 import {Link, NavLink} from "react-router-dom";
 import Logosub from "../../assets/images/C (2).png"
 import LogoC from "../../assets/images/c-logo.png"
-import {faBars, faEnvelope, faHome, faUser} from "@fortawesome/free-solid-svg-icons";
+import {faBars, faCode, faEnvelope, faHome, faUser} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
 import {useState} from "react";
@@ -25,6 +25,10 @@ return (
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about"
                      onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
+            </NavLink>
+            <NavLink exact="true" activeclassname="active" className="work-link" to="/work"
+                     onClick={() => setShowNav(false)}>
+                <FontAwesomeIcon icon={faCode} color="#4d4d4e"/>
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact"
                      onClick={() => setShowNav(false)}>
