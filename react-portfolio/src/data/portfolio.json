@@ -1,0 +1,34 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/1/one.png",
+      "title": "Weather-Map",
+      "description": "React, Tailwind",
+      "url": "https://github.com/CGALLE39/React-weathermap"
+    },
+    {
+      "cover": "/portfolio/1/one.png",
+      "title": "Snake-Game",
+      "description": "Java",
+      "url": "https://github.com/CGALLE39/SnekGame"
+    },
+    {
+      "cover": "/portfolio/1/one.png",
+      "title": "Dog Dating App",
+      "description": "React, Tailwind, Java, MySQL",
+      "url": "https://github.com/cjmad-capstone/stud-puppy"
+    },
+    {
+      "cover": "/portfolio/1/one.png",
+      "title": "Ad Lister",
+      "description": "Java, JSX, HTML",
+      "url": "https://github.com/The-Adlister-Project"
+    },
+    {
+      "cover": "/portfolio/1/one.png",
+      "title": "Movie app",
+      "description": "Javascript, HTML, CSS, JSON",
+      "url": "https://github.com/le-gallegos-umbriel/movie-database"
+    }
+  ]
+}
