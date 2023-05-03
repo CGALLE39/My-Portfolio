@@ -1,34 +1,46 @@
 {
   "portfolio": [
     {
-      "cover": "/portfolio/1/one.png",
+      "image": "/portfolio/weather.jpg",
       "title": "Weather-Map",
       "description": "React, Tailwind",
       "url": "https://github.com/CGALLE39/React-weathermap"
     },
     {
-      "cover": "/portfolio/1/one.png",
+      "image": "/portfolio/snakeysnake.jpg",
       "title": "Snake-Game",
       "description": "Java",
       "url": "https://github.com/CGALLE39/SnekGame"
     },
     {
-      "cover": "/portfolio/1/one.png",
+      "image": "/portfolio/doggydate.png",
       "title": "Dog Dating App",
       "description": "React, Tailwind, Java, MySQL",
       "url": "https://github.com/cjmad-capstone/stud-puppy"
     },
     {
-      "cover": "/portfolio/1/one.png",
+      "image": "/portfolio/shopping.jpg",
       "title": "Ad Lister",
       "description": "Java, JSX, HTML",
       "url": "https://github.com/The-Adlister-Project"
     },
     {
-      "cover": "/portfolio/1/one.png",
+      "image": "/portfolio/movies.jpg",
       "title": "Movie app",
       "description": "Javascript, HTML, CSS, JSON",
       "url": "https://github.com/le-gallegos-umbriel/movie-database"
+    },
+    {
+      "image": "/portfolio/chat.jpg",
+      "title": "Dog Dating App",
+      "description": "React, Node.js",
+      "url": "https://github.com/cjmad-capstone/stud-puppy"
+    },
+    {
+      "image": "/portfolio/videgame.jpg",
+      "title": "Text Adventure Game",
+      "description": "Java",
+      "url": "https://github.com/CGALLE39/codeup-java-exercises/blob/main/src/ConsoleAdventureGame.java"
     }
   ]
 }

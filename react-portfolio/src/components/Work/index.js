@@ -33,7 +33,7 @@ const Work = () => {
                                     className="portfolio-image"
                                     alt="portfolio" />
                                 <div className="content">
-                                    <p className="title">{port.name}</p>
+                                    <h4 className="title">{port.title}</h4>
                                     <h4 className="description">{port.description}</h4>
                                     <button
                                         className="btn"
