@@ -27,7 +27,7 @@
     {
       "image": "/portfolio/movies.jpg",
       "title": "Movie app",
-      "description": "Javascript, HTML, CSS, JSON",
+      "description": "Javascript, HTML, CSS, JSON, Bootstrap",
       "url": "https://github.com/le-gallegos-umbriel/movie-database"
     },
     {
@@ -41,6 +41,12 @@
       "title": "Text Adventure Game",
       "description": "Java",
       "url": "https://github.com/CGALLE39/codeup-java-exercises/blob/main/src/ConsoleAdventureGame.java"
+    },
+    {
+      "image": "/portfolio/pexels-tyler-nix-2396220.jpg",
+      "title": "Coffee Project",
+      "description": "Javascript, HTML, Bootstrap",
+      "url": "https://github.com/romero-gallegos-umbriel/coffee-project"
     }
   ]
 }
