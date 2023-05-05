@@ -8,11 +8,12 @@ import emailjs from '@emailjs/browser';
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef()
+
     useEffect(() => {
-        return setTimeout(() => {
+         setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 3000)
-    }, [])
+    }, []);
 
     const sendEmail = (e) => {
         e.preventDefault()
