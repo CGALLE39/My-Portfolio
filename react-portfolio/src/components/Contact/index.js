@@ -7,7 +7,7 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const form = useRef()
+    const form = useRef();
 
     useEffect(() => {
          setTimeout(() => {
@@ -19,13 +19,13 @@ const Contact = () => {
         e.preventDefault()
 
         emailjs
-            .sendForm('GMAIL', 'TEMPLATE_ID', form.current, 'EMAIL_PUB_KEY')
+            .sendForm('service_o5k81ii', 'portfolio-template', form.current, 'QPA7G5XN5j40OaWck')
             .then(
-                () => {
+                (result) => {
                     alert('Message successfully sent!')
                     window.location.reload(false)
                 },
-                () => {
+                (error) => {
                     alert('Failed to send the message, please try again')
                 }
             )
@@ -54,7 +54,7 @@ const Contact = () => {
                                         <li className="half">
                                             <input
                                                 type="email"
-                                                name="email"
+                                                name="user_email"
                                                 placeholder="Email"
                                                 required
                                             />
