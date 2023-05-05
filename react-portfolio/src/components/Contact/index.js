@@ -19,7 +19,7 @@ const Contact = () => {
         e.preventDefault()
 
         emailjs
-            .sendForm('gmail', 'TEMPLATE_ID', form.current, 'your-token')
+            .sendForm('GMAIL', 'TEMPLATE_ID', form.current, 'EMAIL_PUB_KEY')
             .then(
                 () => {
                     alert('Message successfully sent!')
@@ -43,7 +43,7 @@ const Contact = () => {
                                     />
                                 </h1>
                             <p>
-                                    message me!
+                                    Please feel free to reach out to me! I'm interested in projects both small and large. I'm open to any questions or new opportunities!
                             </p>
                             <div className='contact-form'>
                                 <form ref={form} onSubmit={sendEmail}>

@@ -32,13 +32,13 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>Ambitious web developer looking to advance in my career in tech.
+                <p>Ambitious fullstack web developer looking to advance in my career in tech.
                 </p>
                 <p>
-                    I'm born and raised in San Antonio.
+                    I'm born and raised in San Antonio, Texas currently residing in Austin, Texas!
                 </p>
                 <p>
-                    Turbo nerd.
+                    My interests reside with fitness, sandbox games, and volunteering ☺️.
                 </p>
             </div>
 
