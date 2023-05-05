@@ -46,8 +46,8 @@ const Home = () => {
 
                 {/*resume button */}
                 <button className="res-button">
-                    <a href="../../assets/images/Resume.pdf" download = "Resume.pdf">
-                        Resume
+                    <a className="resume" href="../../assets/images/Resume.pdf" download = "Resume.pdf">
+                        RESUME
                     </a>
                 </button>
             </div>
